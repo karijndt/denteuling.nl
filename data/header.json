@@ -1,0 +1,22 @@
+{
+  "brand" : "vandijke.xyz",
+  "logo" : "logo-black.svg",
+  "links" : [
+    {
+      "title" : "Home",
+      "href" : ""
+    },
+    {
+      "title" : "Features",
+      "href" : "#features"
+    },
+    {
+      "title" : "Projects",
+      "href" : "#pricing"
+    },
+    {
+      "title" : "Contact",
+      "href" : "#contact"
+    }
+  ]
+}
