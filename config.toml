@@ -1,4 +1,4 @@
-baseURL = "http://vandijke.xyz"
+baseURL = "https://vandijke.xyz"
 languageCode = "en-us"
 title = "vandijke.xyz"
 theme = "hugo-sodium-theme"
