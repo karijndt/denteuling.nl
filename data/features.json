@@ -4,17 +4,17 @@
     {
       "icon" : "users",
       "title" : "Social",
-      "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam elementum tristique arcu, in tristique sapien commodo sodales. Vivamus condimentum quam mi."
+      "description" : ""
     },
     {
       "icon" : "rocket",
-      "title" : "Feature 2",
-      "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam efficitur, est sed vestibulum viverra, mi dui semper erat, non placerat dolor est"
+      "title" : "Ambitious",
+      "description" : ""
     },
     {
       "icon" : "code",
       "title" : "Coding",
-      "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus in ornare orci, et posuere velit. Suspendisse tempor blandit augue, non. "
+      "description" : ""
     }
   ]
 }
