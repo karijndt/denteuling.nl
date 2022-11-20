@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: http://vandijke.xyz/sitemap.xml

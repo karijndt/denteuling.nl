@@ -1,9 +1,0 @@
-{
-  "title" : "Hi, I am Martyn van Dijke",
-  "description" : "A Electrical Engineering student in the making",
-  "image" : "misc.jpg",
-  "button" : {
-    "text" : "Get In Touch",
-    "href" : "/#contact"
-  }
-}
