@@ -48,8 +48,8 @@ params:
 
   profileMode:
       enabled: true
-      title: "Enthusiast selfhoster by nature"
-      subtitle: "Currently working as a DevOps Engineer @ ASML"
+      title: "Enthusiast selfhoster by night, DevOps engineer at day."
+      subtitle: "Homepage of Martyn van Dijke"
       imageUrl: "/favicon.png"
       imageTitle: "logo"
       imageWidth: 120 # custom size
@@ -73,11 +73,16 @@ params:
           - JSON # is necessary
 menu:
   main:
+    - name: Archive
+      url: archives
+      weight: 5
+    - name: Search
+      url: search/
+      weight: 10
     - identifier: projects
       name: projects
-      url: /projects/
+      url: projects/
       weight: 20
-    - identifier: blog
-      name: blog
-      url: /blog/
-      weight: 20
+    - name: Tags
+      url: tags/
+      weight: 10
