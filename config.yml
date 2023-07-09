@@ -1,4 +1,4 @@
-baseURL: http://vandijke.xyz
+baseURL: https://vandijke.xyz
 languageCode: en-us
 theme: "PaperMod"
 title: vandijke.xyz
@@ -35,8 +35,6 @@ params:
   tocopen: false
 
   assets:
-    # disableHLJS: true # to disable highlight.js
-    # disableFingerprinting: true
     favicon: "/favicon.png"
     favicon16x16: "<link / abs url>"
     favicon32x32: "<link / abs url>"
@@ -53,12 +51,12 @@ params:
       title: "Enthusiast selfhoster by nature"
       subtitle: "Currently working as a DevOps Engineer @ ASML"
       imageUrl: "/favicon.png"
-      imageTitle: "<title of image as alt>"
+      imageTitle: "logo"
       imageWidth: 120 # custom size
       imageHeight: 120 # custom size
       buttons:
-        - name: heimdall
-          url: "https://heimdall.vandijke.xyz/"
+        - name: homer
+          url: "https://homer.vandijke.xyz/"
 
   socialIcons: # optional
       - name: "github"
@@ -68,6 +66,11 @@ params:
       - name: "linkedin"
         ulr: "https://linkedin.com/in/martynvandijke"
 
+  outputs:
+      home:
+          - HTML
+          - RSS
+          - JSON # is necessary
 menu:
   main:
     - identifier: projects
@@ -78,7 +81,3 @@ menu:
       name: blog
       url: /blog/
       weight: 20
-    - identifier: tags
-      name: tags
-      url: /tags/
-      weight: 30
