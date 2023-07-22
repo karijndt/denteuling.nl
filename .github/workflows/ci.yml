@@ -20,7 +20,7 @@ jobs:
       - name: Install hugo
         run: sudo apt-get install hugo -y
       - name: Hugo build
-        run: sudo apt-get install hugo -y
+        run: hugo
       - name: Build the Docker image
         run: docker build . --file Dockerfile --tag martynvandijke/vandijke.xyz:latest
       - name: Push Docker image
