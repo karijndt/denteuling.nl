@@ -17,6 +17,10 @@ jobs:
         with:
           username: ${{ secrets.DOCKERHUB_USERNAME }}
           password: ${{ secrets.DOCKERHUB_TOKEN }}
+      - name: Install hugo
+        run: sudo apt-get install hugo -y
+      - name: Hugo build
+        run: sudo apt-get install hugo -y
       - name: Build the Docker image
         run: docker build . --file Dockerfile --tag martynvandijke/vandijke.xyz:latest
       - name: Push Docker image

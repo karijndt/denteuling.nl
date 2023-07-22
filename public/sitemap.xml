@@ -2,17 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/posts/first/</loc>
-    <lastmod>2022-11-20T20:28:57+01:00</lastmod>
+    <loc>https://vandijke.xyz/archives/</loc>
   </url><url>
-    <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2022-11-20T20:28:57+01:00</lastmod>
+    <loc>https://vandijke.xyz/tags/blog/</loc>
   </url><url>
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2022-11-20T20:28:57+01:00</lastmod>
+    <loc>https://vandijke.xyz/posts/blog/first/</loc>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://vandijke.xyz/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://vandijke.xyz/posts/</loc>
+  </url><url>
+    <loc>https://vandijke.xyz/tags/projects/</loc>
+  </url><url>
+    <loc>https://vandijke.xyz/projects/</loc>
+  </url><url>
+    <loc>https://vandijke.xyz/search/</loc>
+  </url><url>
+    <loc>https://vandijke.xyz/tags/</loc>
+  </url><url>
+    <loc>https://vandijke.xyz/</loc>
   </url>
 </urlset>
