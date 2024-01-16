@@ -5,6 +5,8 @@ on:
     branches: ["master"]
   pull_request:
     branches: ["master"]
+  schedule:
+    - cron: '0 0 1 * *'
 
 jobs:
   build:
@@ -12,16 +14,14 @@ jobs:
 
     steps:
       - uses: actions/checkout@v3
+        with:
+          submodules: 'true'
       - name: Login to Docker Hub
         uses: docker/login-action@v2
         with:
           username: ${{ secrets.DOCKERHUB_USERNAME }}
           password: ${{ secrets.DOCKERHUB_TOKEN }}
-      - name: Install hugo
-        run: sudo apt-get install hugo -y
-      - name: Hugo build
-        run: hugo
       - name: Build the Docker image
-        run: docker build . --file Dockerfile --tag martynvandijke/vandijke.xyz:latest
+        run: docker build . --file Dockerfile --tag martynvandijke/soundbridgefx:latest
       - name: Push Docker image
-        run: docker push martynvandijke/vandijke.xyz:latest
+        run: docker push martynvandijke/soundbridgefx:latest
