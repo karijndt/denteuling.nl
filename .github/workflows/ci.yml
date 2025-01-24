@@ -27,7 +27,7 @@ jobs:
       - name: Hugo build
         run: hugo
       - name: Build the Docker image
-        run: docker build . --file Dockerfile --tag martynvandijke/vandijke.xyz:latest
+        run: docker build . --file Dockerfile --tag karijndt/denteuling:latest
       - name: Push Docker image
-        run: docker push martynvandijke/vandijke.xyz:latest
+        run: docker push karijndt/denteuling:latest
 
